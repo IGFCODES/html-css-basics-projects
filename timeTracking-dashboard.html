@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time tracking Dashboard</title>
+    <link rel="stylesheet" href="/CSS/timeTracking-dashboard.css">
+    <script src="/JS/project.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+     <nav>
+                <div class="dropdown">
+                    <button
+                    class="dropbtn">Menu &#9776;</button>
+                    <div 
+                    class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="CV.html">My CV</a>
+                    <a href="timeTracking-dashboard.html">Time Tracking Dashboard</a>
+                    <a href="card.html">Cards</a>
+                    <a href="diyFlex-box.html">DIY Flexbox</a>
+                    <a href="flexcars.html">Flexbox Cars</a>
+                    <a href="table.html">Table</a>
+                    <a href="hospitalReg-form.html">Hospital Registration Form</a>
+                    <a href="schoolReg-form.html">School Registration Form</a>
+                    <a href="webDev-wikipedia.html">Web Development Wikipedia</a>
+                </div> 
+                
+            </div> 
+        </nav>
+
+    <div class="dashboard">
+        <!-- Profile Card Section -->
+        <div class="profile-card">
+            <div class="profile-info">
+                <img src="/src/images/image.jpg/image-igoche.JPG" alt="Igoche Friday profile picture" class="profile-pic">
+                <div>
+                    <p class="report-for">Report for</p>
+                    <h1 class="profile-name">Igoche Friday</h1>
+                </div>
+            </div>
+            <div class="time-periods">
+                    <button class="period-btn" data-period="daily">Daily</button>
+                    <button class="period-btn active" data-period="weekly">Weekly</button>
+                    <button class="period-btn" data-period="monthly">Monthly</button>
+                </div>
+        </div>
+        <!-- Activity Cards Section -->
+           <div class="activity-cards">
+            <!-- Work -->
+             <div class="activity-card work">
+                <img src="/Home Work1/src/images/images.svg/icon-work.svg" alt="Work Icon" class="activity-card-bg">
+                <div class="activity-card-content">
+                    <div class="activity-header">
+                        <h2 class="activity-title">Work</h2>
+                        <img src="/Home Work1/src/images/images.svg/icon-ellipsis.svg" alt="Menu" class="activity-menu">
+                    </div>
+                    <div class="activity-hours">32hrs</div>
+                    <div class="activity-prev-period">Last Week - 36hrs</div>
+                </div>
+            </div>
+            <!-- Coding -->
+            <div class="activity-card coding">
+                <img src="/Home Work1/src/images/images.svg/icon-play.svg" alt="coding Icon" class="activity-card-bg">
+                <div class="activity-card-content">
+                    <div class="activity-header">
+                        <h2 class="activity-title">Play</h2>
+                        <img src="/Home Work1/src/images/images.svg/icon-ellipsis.svg" alt="Menu" class="activity-menu">
+                    </div>
+                    <div class="activity-hours">10hrs</div>
+                    <div class="activity-prev-period">Last Week - 8hrs</div>
+                </div>
+            </div>
+            <!-- study -->
+            <div class="activity-card study">
+                <img src="/Home Work1/src/images/images.svg/icon-study.svg" alt="Study Icon" class="activity-card-bg">
+                <div class="activity-card-content">
+                    <div class="activity-header">
+                        <h2 class="activity-title">Study</h2>
+                        <img src="/Home Work1/src/images/images.svg/icon-ellipsis.svg" alt="Menu" class="activity-menu">
+                    </div>
+                    <div class="activity-hours">4hrs</div>
+                    <div class="activity-prev-period">Last Week - 7hrs</div>
+                </div>
+            </div>
+            <!-- Excercise -->
+            <div class="activity-card exercise">
+                <img src="/Home Work1/src/images/images.svg/icon-exercise.svg" alt="Exercise Icon" class="activity-card-bg">
+                <div class="activity-card-content">
+                    <div class="activity-header">
+                        <h2 class="activity-title">Exercise</h2>
+                        <img src="/Home Work1/src/images/images.svg/icon-ellipsis.svg" alt="Menu" class="activity-menu">
+                    </div>
+                    <div class="activity-hours">4hrs</div>
+                    <div class="activity-prev-period">Last Week - 5hrs</div>
+                </div>
+            </div>
+            <!-- Social -->
+            <div class="activity-card social">
+                <img src="/Home Work1/src/images/images.svg/icon-social.svg" alt="Social Icon" class="activity-card-bg">
+                <div class="activity-card-content">
+                    <div class="activity-header">
+                        <h2 class="activity-title">Social</h2>
+                        <img src="/Home Work1/src/images/images.svg/icon-ellipsis.svg" alt="Menu" class="activity-menu">
+                    </div>
+                    <div class="activity-hours">5hrs</div>
+                    <div class="activity-prev-period">Last Week - 10hrs</div>
+                </div>
+            </div>
+            <!-- Self Care -->
+            <div class="activity-card self-care">
+                <img src="/Home Work1/src/images/images.svg/icon-self-care.svg" alt="Self Care Icon" class="activity-card-bg">
+                <div class="activity-card-content">
+                    <div class="activity-header">
+                        <h2 class="activity-title">Self Care</h2>
+                        <img src="/Home Work1/src/images/images.svg/icon-ellipsis.svg" alt="Menu" class="activity-menu">
+                    </div>
+                    <div class="activity-hours">2hrs</div>
+                    <div class="activity-prev-period">Last Week - 2hrs</div>
+                </div>
+            </div>
+           </div>
+
+    </div> 
+</body>
+</html>

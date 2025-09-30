@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 2px;
+    text-align: left;
+    border-radius: 5px;
+}
+/* Dropdown Button*/
+.dropbtn {
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+    color: white;
+    padding: 15px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 0;
+    padding-top: 0;
+}
+/* Dropdown Ontainer */
+.dropdown {
+    /* position: relative; */
+    display: inline-block;
+    /* position: absolute; */
+    right: 1%;
+    top: 5%;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    /* position: absolute; */
+    background-color: rgb(183, 181, 181);
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+/* Dropdown Links */
+.dropdown-content a {
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+}
+/* Change Color on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+/* Show dropdown when hovering */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.container {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    width: auto;
+    padding-bottom: 50px;
+}
+.reliable {
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 32%;
+    padding-right: 32%;
+    margin-bottom: 40px;
+}
+.textreliable, h1 {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+}
+h1 {
+    font-weight: 799;
+}
+.ourai {
+    font-weight: 549;
+    font-size: small;
+}
+.boxcontainer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.supervisor {
+    box-sizing: border-box;
+    border-top: 3px solid green;
+    align-self: center;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 5px 5px 10px;
+    border-radius: 5px;
+}
+.simage {
+    display: flex;
+    transform: scale(0.5);
+    justify-self: flex-end;
+    transform-origin: bottom;
+}
+.teamkarma {
+    display: flex;
+    flex-direction: column;
+}
+.teambuilder {
+    box-sizing: border-box;
+    border-top: 3px solid red;
+    box-shadow: 5px 5px 10px;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+}
+.timage {
+    display: flex;
+    transform: scale(0.5);
+    justify-self: flex-end;
+    transform-origin: bottom;
+}
+.karma {
+    box-sizing: border-box;
+    border-top: 3px solid yellow;
+    box-shadow: 5px 5px 10px;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+.kimage {
+    display: flex;
+    transform: scale(0.5);
+    justify-self: flex-end;
+    transform-origin: bottom;
+}
+.calculator {
+    box-sizing: border-box;
+    border-top: 3px solid blue;
+    box-shadow: 5px 5px 10px;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    align-self: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.cimage {
+    display: flex;
+    transform: scale(0.5);
+    justify-self: flex-end;
+    transform-origin: bottom;
+}
